@@ -59,8 +59,8 @@ Replace your_groq_api_key_here with your actual API key from Groq.
 node server.js
 ```
 ### **6. Launch the app**
-```sh
 Open your browser and visit:
+```sh
 http://localhost:3000
 ```
 ---

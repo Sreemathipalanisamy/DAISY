@@ -1,15 +1,15 @@
 # DAISY – Daily AI System for You
 
-DAISY is a web-based chatbot application designed to assist users with everyday tasks such as cooking, cleaning, productivity, fitness, and more — powered by the Groq AI API.
+**DAISY** is a web-based chatbot application designed to assist users with everyday tasks such as cooking, cleaning, productivity, fitness, and more — powered by the Groq AI API.
 
 ---
 
 ## Table of Contents
 
-- [📘 Description](#description)
-- [✨ Features](#features)
-- [⚙️ Installation](#installation)
-- [🚀 Usage](#usage)
+- [ Description](#description)
+- [ Features](#features)
+- [ Installation](#installation)
+- [ Usage](#usage)
 
 ---
 
@@ -35,35 +35,35 @@ DAISY is a web-based chatbot application designed to assist users with everyday 
 
 To run **DAISY** locally, follow these steps:
 
-### 1. Clone the repository
-
+### **1. Clone the repository**
+```sh
 git clone https://github.com/your-username/daisy-chatbot.git
-
-### 2. Navigate to the project directory
-
+```
+### **2. Navigate to the project directory**
+```sh
 cd daisy-chatbot
-
-### 3. Install dependencies
-
+```
+### **3. Install dependencies**
+```sh
 npm install
-
-### 4. Set up environment variables
+```
+### **4. Set up environment variables**
 
 Create a .env file in the root directory and add your Groq API key:
-
+```sh
 GROQ_API_KEY=your_groq_api_key_here
-
+```
 Replace your_groq_api_key_here with your actual API key from Groq.
 
-### 5. Start the server
-
+### **5. Start the server**
+```sh
 node server.js
-
-### 6. Launch the app
-
+```
+### **6. Launch the app**
+```sh
 Open your browser and visit:
 http://localhost:3000
-
+```
 ## Usage
 After starting DAISY:
 
